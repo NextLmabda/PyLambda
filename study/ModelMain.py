@@ -14,3 +14,5 @@ print(y)
 print(z)
 
 print(func(10, 12))
+
+print((lambda x, y, z: x * y * z)(3, 4, 5))
