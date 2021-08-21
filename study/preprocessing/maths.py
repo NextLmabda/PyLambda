@@ -51,6 +51,13 @@ class Maths:
         else:
             return self.combination()
 
+    def pascal(self, power):
+        out = []
+        for i in range(power + 1):
+            out.append(int(self.combination(power, i)))
+
+        return out
+
 
 n, r = input('Please, enter two integers separated by space: ').split()
 #n = int(input('Please, enter first integers: '))

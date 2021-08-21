@@ -1,4 +1,4 @@
-
+import pandas as pd
 def factorial(num):
     '''
     The function calcualtes the factorial of a number
